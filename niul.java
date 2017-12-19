@@ -15,6 +15,11 @@ public static int fac(int n)
   }
 }
 
+public static int add(int a,int b)
+{
+return (a+b);
+}
+
 public static void main(String[] args)
  { 
      Scanner sc = new Scanner(System.in);
@@ -22,5 +27,9 @@ public static void main(String[] args)
      System.out.println("enter the number:");
      int n = sc.nextInt();
      System.out.println(fac(n));
+     System.out.println("enter the two numbers:");
+     int a = sc.nextInt();
+     int b = sc.nextInt();
+     System.out.println(add(a,b));
  }
 }
